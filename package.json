@@ -1,0 +1,22 @@
+{
+  "name": "netlify_services_aws_lambda_tutorial",
+  "version": "1.0.0",
+  "description": "A tutorial to setup a serverless application that accepts payments using AWS lambda functions with Netlify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdamin/netlify_serverless_aws_lambda_tutorial.git"
+  },
+  "author": "Abdullah Amin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdamin/netlify_serverless_aws_lambda_tutorial/issues"
+  },
+  "homepage": "https://github.com/abdamin/netlify_serverless_aws_lambda_tutorial#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
+}
