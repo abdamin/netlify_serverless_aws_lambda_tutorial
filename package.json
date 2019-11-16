@@ -4,7 +4,8 @@
   "description": "A tutorial to setup a serverless application that accepts payments using AWS lambda functions with Netlify",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-install": "netlify-lambda install functions"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/abdamin/netlify_serverless_aws_lambda_tutorial#readme",
   "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
     "netlify-lambda": "^1.6.3"
   }
 }
