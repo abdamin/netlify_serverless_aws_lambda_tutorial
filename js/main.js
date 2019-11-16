@@ -1,5 +1,5 @@
 //post request URL
-const URL = "http://localhost:9000/sendEmail";
+const URL = "/.netlify/functions/sendEmail";
 
 //function to make a post request to lambda function using the fetch API
 const sendEmail = async (url, data = {}) => {
