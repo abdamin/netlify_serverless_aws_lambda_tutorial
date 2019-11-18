@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lambda-serve": "netlify-lambda serve functions",
-    "lambda-install": "netlify-lambda install functions"
+    "lambda-build": "netlify-lambda build functions"
   },
   "repository": {
     "type": "git",
